@@ -1,0 +1,23 @@
+{
+    "name": "mlaxwong/paw-composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mlax Wong",
+            "email": "mlaxwong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "paw\\composer\\": "src/"
+        }
+    },
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "composer/composer": "^1.8"
+    },
+    "extra": {
+        "class": "paw\\composer\\Plugin"
+    }
+}
