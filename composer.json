@@ -1,6 +1,6 @@
 {
     "name": "mlaxwong/paw-composer",
-    "type": "library",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
